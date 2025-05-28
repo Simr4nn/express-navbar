@@ -12,7 +12,8 @@ app.get('/', (req, res) => {
 
 // Route for Climate Crisis
 app.get('/climate-crisis', (req, res) => {
-  res.send('<h1>Climate Crisis</h1><p><a href="https://github.com/yourusername/climate-crisis-repo">View GitHub Repo</a></p>');
+  res.send('<h1>Climate Crisis</h1><p><a href="https://github.com/RamanujaMohanty/ca-fire-site" target="_blank">View GitHub Repo</a></p>');
+
 });
 
 // Route for Typesetting
